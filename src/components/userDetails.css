@@ -1,0 +1,39 @@
+.card-body{
+    width: 50%;
+    margin-top: 3rem;
+    margin-left: 30%;
+    padding: 2rem;
+    display: block;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 3px;
+    background-image: linear-gradient(120deg, #C68B59,#CDAC81, #D7B19D);
+    height: 100vh;
+
+}
+.back-button{
+    top:50%;
+    background-color:#613718;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:5px;
+    min-height:10px; 
+    min-width: 120px;
+}
+.back-button:hover{
+    background-color: #975b27;
+    transition: .2s ease;
+  }
+
+.blob-img{
+    position: absolute;
+    width: 50%;
+    left: 60%;
+}
+.detail-img{
+    /* height: 50%; */
+    height: 55vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      border-radius: 0.5rem;
+      border: 0.1rem solid black;
+}

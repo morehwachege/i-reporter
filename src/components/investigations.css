@@ -1,0 +1,50 @@
+.searchbar {
+    float: right;
+    margin-right: 30%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 20px 5px 40px;
+    width: 35%;
+}
+
+.investigationsleftbox {
+    float: left;
+    border: 1px solid black;
+    padding: 5%;
+    margin-top: 5%;
+    width: 20%;
+    height: 30em;
+}
+
+
+
+.investigationsbox {
+    float: right;
+    border: 1px solid black;
+    display: flex;
+    margin: 3% 0 3% 3%;
+    width: 80%;
+}
+
+.investigationsleft {
+    float: left;
+    border-right: 1px solid black;
+    padding: 5%;
+    width: 70%;
+}
+
+.investigationsright {
+    float: right;
+    padding: 5%;
+}
+
+.eachbox {
+    display: grid;
+    width: 70%;
+}
+
+.leftbox {
+    overflow-wrap: break-word; 
+    margin-top: 30%;
+    margin-bottom: 5%;
+}

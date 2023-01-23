@@ -1,0 +1,36 @@
+.topbar-container{
+  /* background-image: url(https://images.unsplash.com/photo-1584058878169-03e19f2429ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTJ8fHRleHR1cmUlMjBiYWNrZ3JvdW5kfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60); */
+  color: white;
+  padding: 0 20px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:auto;
+  height: 10vh;
+  margin-bottom: -0.01rem;
+  /* background-color: #C68B59; */
+  background-image: linear-gradient(120deg, #C68B59,#CDAC81, #D7B19D);
+
+}
+.topbar-header{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+ul{
+    margin: 0;
+    padding: 0rem;
+    display: flex;
+    justify-content: flex-start;
+}
+img{
+   height: 20%;
+}
+.topbar-icons{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding-right: 2rem;
+}

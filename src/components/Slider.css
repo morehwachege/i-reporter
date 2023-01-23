@@ -1,0 +1,53 @@
+.slider{
+    overflow: hidden;
+    margin-top: 10rem;
+    position: relative;
+    width: 65%;
+    margin: auto;
+}
+
+img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+.innerDiv{
+    white-space: nowrap;
+    transition: 0.7s;
+    position: relative;
+}
+
+.sliderItem{
+    display: inline-flex;
+    max-height: 300px;
+    min-height: 300px;
+}
+
+.arrows{
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+.arrows * {
+    font-size: 40px;
+    color: #C68B59;
+    position: absolute;
+}
+.right{
+    right: 0;
+}
+
+@media(max-width: 768px){
+    .slider{
+        width: 100%;
+    }
+    .sliderItem{
+        min-height: 200px;
+        max-height: 200px;
+    }
+    img{
+        object-fit: inherit;
+    }
+}

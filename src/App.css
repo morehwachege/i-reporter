@@ -1,0 +1,46 @@
+*{
+  font-family: "Poppins";
+}
+
+
+.contact-info{
+    display: flex;
+    text-align: center;
+}
+.person-form h2, .phone-form h2{
+    position: relative;
+    text-align: center;
+    text-indent: 70px;
+    letter-spacing: 3px;
+}
+.person-form p{
+    position: relative;
+    text-align: center;
+    text-indent: 70px;
+}
+.phone-form p{
+    text-align: center;
+    margin-left: 1rem;
+}
+.person-form{
+    margin-left: 0.5rem;
+}
+.phone-heading{
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  text-decoration: double;
+}
+.phone-numbers svg{
+    height: 5vh;
+}
+.phone-numbers{
+    height: 5vh;
+    margin-left: 3rem;
+    display: block;
+  
+}
+.maps{
+    margin-top: 0;
+    margin: 1.5rem;
+}

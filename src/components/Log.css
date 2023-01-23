@@ -1,0 +1,79 @@
+.blob1{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* border-radius: 0.5rem; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  /* width: 100%; */
+  height: 60vh;
+  /* margin: 0 auto; center the form horizontally */
+  /* padding: 20px; */
+  margin-top: 2rem;
+  float: left;
+    width: 25%;
+    padding: 2rem;
+    margin-bottom: 20px;
+    margin-left: 5%;
+    border: 0.1rem solid white;
+
+}
+.blob1 img{
+  height: 50vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 0.5rem;
+    border: 0.1rem solid black;
+}
+.blob{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  height: 10vh;
+  cursor: pointer;
+
+}
+.log form{
+    /* background-image: url("../images/bg.jpeg"); */
+    background-image: linear-gradient(120deg, #C68B59,#CDAC81, #D7B19D);
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-size: cover;
+    height: 70vh;
+    
+}
+.log label{
+  padding: 0.5rem;
+  
+}
+.log input{
+    display: block;
+    width: 50%;
+    margin: 0 auto; /* center the form horizontally */
+    padding: 15px;
+    border: 0.1rem solid; 
+    border-radius: 0.5rem;
+
+}
+.log h2{
+  margin-left: 50%;
+}
+.log-btn{
+    margin-left: 30%;
+    font-style: italic;
+}
+.login-btn{
+    width: 80px;
+    color: aliceblue;
+    perspective: 1000px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin-left: 44%;
+    background-color: #613718;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-btn:hover{
+    background-color: #975b27;
+    transition: .2s ease;
+  }
