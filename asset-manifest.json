@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/i-reporter/static/css/main.2cfb9da4.css",
+    "main.js": "/i-reporter/static/js/main.0c76b56a.js",
+    "static/js/519.e46aeb37.chunk.js": "/i-reporter/static/js/519.e46aeb37.chunk.js",
+    "static/js/787.fc0e6355.chunk.js": "/i-reporter/static/js/787.fc0e6355.chunk.js",
+    "static/media/video.mp4": "/i-reporter/static/media/video.74f22b39c6512df172eb.mp4",
+    "static/media/dollar.jpg": "/i-reporter/static/media/dollar.b58f18be6fcaa9bca80a.jpg",
+    "static/media/office.jpg": "/i-reporter/static/media/office.05c4ae8b2587ec040537.jpg",
+    "static/media/pri2.jpg": "/i-reporter/static/media/pri2.0c05fcf6589b8f4e7423.jpg",
+    "static/media/city2.jpg": "/i-reporter/static/media/city2.78a30544836eefe380b2.jpg",
+    "static/media/pri3.jpg": "/i-reporter/static/media/pri3.4f0431a113fe2e3fd2c3.jpg",
+    "static/media/login.jpeg": "/i-reporter/static/media/login.edb268a13abd7b3482c9.jpeg",
+    "static/media/person.jpg": "/i-reporter/static/media/person.ea31b47cd4d56df617a0.jpg",
+    "static/media/login2.jpeg": "/i-reporter/static/media/login2.9f5dc7956008a8774879.jpeg",
+    "static/media/phone.jpg": "/i-reporter/static/media/phone.793bbe038d8051d10a4e.jpg",
+    "static/media/mail.jpg": "/i-reporter/static/media/mail.bf674d1dd7c285e576f3.jpg",
+    "static/media/person2.jpg": "/i-reporter/static/media/person2.e2e3877c7c496ee80551.jpg",
+    "index.html": "/i-reporter/index.html",
+    "main.2cfb9da4.css.map": "/i-reporter/static/css/main.2cfb9da4.css.map",
+    "main.0c76b56a.js.map": "/i-reporter/static/js/main.0c76b56a.js.map",
+    "519.e46aeb37.chunk.js.map": "/i-reporter/static/js/519.e46aeb37.chunk.js.map",
+    "787.fc0e6355.chunk.js.map": "/i-reporter/static/js/787.fc0e6355.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2cfb9da4.css",
+    "static/js/main.0c76b56a.js"
+  ]
+}
