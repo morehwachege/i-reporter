@@ -2,7 +2,7 @@
   "name": "irepoter-frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://morehwachege.github.io/i-reporter",
+  "homepage": "https://morehwachege.github.io/i-reporter/",
   "proxy": "http://irepoter-backend-production.up.railway.app/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
