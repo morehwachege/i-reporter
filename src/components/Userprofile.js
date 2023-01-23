@@ -9,7 +9,7 @@ function Userprofile({ reports, onDelete, userlocation, setUser, user }) {
 
   useEffect(() => {
     // check current user session cookie
-    fetch("/me").then(res => {
+    fetch("https://irepoter-backend-production.up.railway.app/me").then(res => {
       if (res.ok) {
         res.json().then(user => setUser(user), console.log(user))
       }
@@ -21,7 +21,7 @@ function Userprofile({ reports, onDelete, userlocation, setUser, user }) {
 
 
   const handleLogout = () => {
-    fetch('/logout', {
+    fetch('https://irepoter-backend-production.up.railway.app/logout', {
       method: 'DELETE'
     })
       .then(response => {

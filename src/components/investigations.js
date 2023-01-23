@@ -11,7 +11,7 @@ function Investigations() {
 
     useEffect(() => {
 
-        fetch('/reports')
+        fetch('https://irepoter-backend-production.up.railway.app/reports')
             .then(response => response.json())
             .then(data => setInvestigations(data))
             .catch(err => console.error(err));

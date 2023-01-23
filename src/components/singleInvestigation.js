@@ -24,7 +24,7 @@ function SingleInvestigation() {
 
   useEffect(() => {
 
-    fetch('/reports')
+    fetch('https://irepoter-backend-production.up.railway.app/reports')
       .then(response => response.json())
       .then(info => setData(info))
       .catch(err => console.error(err));
@@ -50,7 +50,7 @@ function SingleInvestigation() {
     event.preventDefault();
 
     const newReport = { ...report }
-    fetch(`/reports/${id}`, {
+    fetch(`https://irepoter-backend-production.up.railway.app/reports/${id}`, {
       method: "PATCH",
       headers: {
         Accept: "application/json",

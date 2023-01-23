@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "homepage": "https://morehwachege.github.io/i-reporter/",
-  "proxy": "http://irepoter-backend-production.up.railway.app/",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@testing-library/jest-dom": "^5.16.5",

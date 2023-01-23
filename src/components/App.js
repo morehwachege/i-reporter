@@ -42,7 +42,7 @@ function App() {
   useEffect(() => {
 
     if(user !== null){
-      fetch('/reports')
+      fetch('https://irepoter-backend-production.up.railway.app/reports')
       .then(r => r.json())
       .then(data => setReports(data))
     }
@@ -51,7 +51,7 @@ function App() {
 
 
   function deleteOrder(id) {
-    fetch(`/reports/${id}`, {
+    fetch(`https://irepoter-backend-production.up.railway.app/reports/${id}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json"

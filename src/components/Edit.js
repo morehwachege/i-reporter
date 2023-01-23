@@ -8,7 +8,7 @@ function Edit({ onEditReport }) {
   // console.log(id)
 
   useEffect(() => {
-    fetch(`/reports/${id}`)
+    fetch(`https://irepoter-backend-production.up.railway.app/reports/${id}`)
       .then(r => r.json())
       .then(data => setReports(data))
   }, []);
@@ -34,7 +34,7 @@ function Edit({ onEditReport }) {
       id: report.id
     }
 
-    fetch(`/reports/${editedReport.id}`,
+    fetch(`https://irepoter-backend-production.up.railway.app/reports/${editedReport.id}`,
       {
         method: 'PATCH',
         headers: {

@@ -42,7 +42,7 @@ function ReportForm({ onAddNewReport, userlocation }) {
     };
 
 
-    fetch("/reports",
+    fetch("https://irepoter-backend-production.up.railway.app/reports",
       {
         method: 'POST',
         headers: {

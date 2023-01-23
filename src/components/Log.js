@@ -13,7 +13,7 @@ function Log({ user, setUser, setLoggedIn }) {
   function handleSubmit(e) {
     e.preventDefault();
     // setIsLoading(true);
-    fetch("/login", {
+    fetch("https://irepoter-backend-production.up.railway.app/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

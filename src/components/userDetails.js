@@ -11,7 +11,7 @@ function UserDetails() {
   const nav = useNavigate();
 
   useEffect(() => {
-    fetch(`/reports/${id}`).then((response) => {
+    fetch(`https://irepoter-backend-production.up.railway.app/reports/${id}`).then((response) => {
       if (response.ok) {
         response.json().then((report) => {
           setReports({ data: report });
